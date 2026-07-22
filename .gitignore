@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+.venv312/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Dataset
+data/raw/
+data/processed/
+data/embeddings/
+
+# Temporary Files
+temp.jpg
+
+# OS
+.DS_Store
+Thumbs.db
