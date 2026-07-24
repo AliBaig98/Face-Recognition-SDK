@@ -135,7 +135,7 @@ pip install -r requirements.txt
 **Ali Abdul Qadeer Baig**
 
 LinkedIn:
-(Add your LinkedIn URL)
+(https://www.linkedin.com/in/ali-baig-089b082ba/)
 
 GitHub:
 https://github.com/AliBaig98
