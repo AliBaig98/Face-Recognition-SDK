@@ -1,74 +1,141 @@
-# Face Recognition SDK using Deep Learning
+# 🧑 Face Recognition System using FaceNet & MTCNN
 
-A Face Recognition system built using Deep Learning with MTCNN and FaceNet.
+A Deep Learning based Face Recognition System built using **PyTorch**, **FaceNet (InceptionResnetV1)** and **MTCNN**.
 
-## Features
+This project detects faces from images, generates high-dimensional face embeddings, and identifies individuals using cosine similarity.
+
+---
+
+## 📌 Features
 
 - Face Detection using MTCNN
-- Face Embedding using FaceNet (InceptionResnetV1)
-- Face Matching using Cosine Similarity
-- Face Database Generation
-- Face Recognition Script
-- Streamlit Web Application
+- Face Embedding Generation using FaceNet
+- Image-based Face Recognition
+- Cosine Similarity Matching
+- Custom Face Database
+- Modular Project Structure
+- Easy to Add New Identities
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 - Python
 - PyTorch
-- FaceNet
+- FaceNet (InceptionResnetV1)
 - MTCNN
 - OpenCV
-- Streamlit
+- Pillow
+- NumPy
 
-## Project Structure
+---
 
-```text
-app.py
-src/
-scripts/
-notebooks/
-data/
+## 📂 Project Structure
+
+```
+Face-Recognition-System/
+
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── embeddings/
+│
+├── notebooks/
+│
+├── scripts/
+│
+├── src/
+│   ├── data/
+│   ├── models/
+│   ├── inference/
+│   └── utils/
+│
+├── requirements.txt
+└── README.md
 ```
 
-## Installation
+---
+
+## ⚙️ Workflow
+
+Dataset
+
+↓
+
+Face Detection (MTCNN)
+
+↓
+
+Face Alignment
+
+↓
+
+Face Embedding (FaceNet)
+
+↓
+
+Embedding Database
+
+↓
+
+Cosine Similarity
+
+↓
+
+Identity Prediction
+
+---
+
+## 📊 Dataset
+
+The project uses the **Labeled Faces in the Wild (LFW)** dataset.
+
+Due to GitHub size limitations, the dataset is not included in this repository.
+
+---
+
+## 🚀 Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/AliBaig98/Face-Recognition-System.git
 
-cd FaceRecognition
+cd Face-Recognition-System
 
 python -m venv .venv
+
+source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
 
-## Run
+---
 
-Build database
+## 📈 Results
 
-```bash
-python scripts/build_database.py
-```
+- Detects faces accurately
+- Generates FaceNet embeddings
+- Matches identities using cosine similarity
+- Supports custom face datasets
 
-Recognize face
+---
 
-```bash
-python scripts/recognize_face.py
-```
+## 🔮 Future Improvements
 
-Run Streamlit
-
-```bash
-streamlit run app.py
-```
-
-## Dataset
-
-LFW (Labeled Faces in the Wild)
-
-## Future Improvements
-
-- Multi-face Recognition
+- Real-Time Face Recognition
+- Attendance Management System
+- GUI Application
 - Face Registration
-- Live Webcam Recognition
-- FastAPI Deployment
+- Face Tracking
+
+---
+
+## 👨‍💻 Author
+
+**Ali Abdul Qadeer Baig**
+
+LinkedIn:
+(Add your LinkedIn URL)
+
+GitHub:
+https://github.com/AliBaig98
